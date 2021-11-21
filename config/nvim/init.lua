@@ -1,3 +1,14 @@
+require('plugins')
+
+-- nvim_buf_set_option({buffer}, {name}, {value})
+vim.api.nvim_buf_set_option(0, "tabstop", 2)
+vim.api.nvim_buf_set_option(0, "shiftwidth", 2)
+vim.api.nvim_buf_set_option(0, "expandtab", true)
+
+-- nvim_win_set_option({window}, {name}, {value})
+vim.api.nvim_win_set_option(0, "number", true)
+vim.api.nvim_win_set_option(0, "relativenumber", true)
+
 -- use jj for <esc> in insert mode
 vim.api.nvim_set_keymap("i", "jj", "<esc>", {noremap = false, silent = true})
 
