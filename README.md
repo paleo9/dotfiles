@@ -5,7 +5,7 @@ Dotfiles managed by gnu rcm
 These files have gone by many names in history, such as “rc files” because they typically end in rc or “dotfiles” because they begin with a period.
 ...rcm man page." 
 
-I try to use the .config drectory where possible but exclude files that I don't manage personally, e.g. .config/xfce/* which get updated by the xfce settings manager.
+I try to use the .config directory where possible but exclude files that I don't manage personally, e.g. .config/xfce/* which get updated by the xfce settings manager.
 
 
 
