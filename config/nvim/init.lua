@@ -1,4 +1,5 @@
-require('plugins')
+require 'plugins'
+require 'lspconfig'.pyright.setup{}
 
 -- nvim_buf_set_option({buffer}, {name}, {value})
 vim.api.nvim_buf_set_option(0, "tabstop", 2)
