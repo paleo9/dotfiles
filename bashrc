@@ -25,3 +25,19 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
+
+# User-created entries:
+
+# print A4 man pages, Usage: "manps <manpage> | lpr"
+alias manps="man -Tps -P-a4"
+
+# lpr1 print single-sided A4
+alias lpr1="lpr -o media=a4"
+
+# lpr print duplexed A4
+alias lpr="lpr -o media=a4 -o sides=two-sided-long-edge"
+
+# touchdate - create a file with timestamp appended
+function touchdate () { touch $1-$(date +%s); }
+
+
