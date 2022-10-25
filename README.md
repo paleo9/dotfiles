@@ -1,11 +1,10 @@
 # dotfiles
-Dotfiles managed by gnu rcm
+My dotfiles are managed by gnu stow or rcm. Both tools do the same thing, i.e. they replace specified config files with a symlink to a directory where 
+the original files have been moved. Stow is older, has more options and is more general purpose. Rcm has specific options that allow it to 
+do automatically things that stow would need additional manual steps - for example, separate setups for individual hosts.
 
-"The rcm suite of tools is for managing dotfiles directories. This is a directory containing all the .*rc files in your home directory (.zshrc, .vimrc, and so on) 
-These files have gone by many names in history, such as “rc files” because they typically end in rc or “dotfiles” because they begin with a period.
-...rcm man page." 
+I only use these tools for configuration files I alter myself, not those modified by linux applications.
 
-I try to use the .config directory where possible but exclude files that I don't manage personally, e.g. .config/xfce/* which get updated by the xfce settings manager.
 
 
 
